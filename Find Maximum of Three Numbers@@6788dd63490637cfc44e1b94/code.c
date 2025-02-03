@@ -11,7 +11,7 @@ if(x>y && x>z){
     printf("%d",x);
 }
 if(y>z && y>x){
-    printf("%d"y);
+    printf("%d",y);
 }
 else{
     printf("%d",z);
