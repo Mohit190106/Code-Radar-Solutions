@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
     int x;
-    scanf("%d",&x);
+
     int y;
-    scanf("%d",&y);
+    
     int z;
-    scanf("%d",&z);
+    scanf("%d %d %d",&x,&y,&z);
 }
 if(x>y && x>z){
     printf("x is greater than y and z");
