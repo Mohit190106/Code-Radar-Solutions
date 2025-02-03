@@ -10,11 +10,11 @@ int main(){
 if(x>y && x>z){
     printf("%d",x);
 }
-if(y>z && y>x){
+else if(y>z && y>x){
     printf("%d",y);
 }
 else{
     printf("%d",z);
 }
-return 0;
+
 }
