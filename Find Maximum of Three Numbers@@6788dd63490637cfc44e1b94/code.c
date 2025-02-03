@@ -8,13 +8,13 @@ int main(){
     scanf("%d %d %d",&x,&y,&z);
 
 if(x>y && x>z){
-    printf("x is greater than y and z");
+    printf("%d",x);
 }
 if(y>z && y>x){
-    printf("y is greater than x and y");
+    printf("%d"y);
 }
 else{
-    printf("z is greater than x and y");
+    printf("%d",z);
 }
 return 0;
 }
