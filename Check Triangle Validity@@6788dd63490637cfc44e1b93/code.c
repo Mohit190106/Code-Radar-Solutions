@@ -8,5 +8,5 @@ if(x+y>z && y+z>x && z+x>y){
 else{
     printf("Invalid")
 }
-   return 0;
+return 0;
 }
