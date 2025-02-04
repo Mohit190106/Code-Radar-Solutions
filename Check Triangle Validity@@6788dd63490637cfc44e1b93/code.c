@@ -6,7 +6,7 @@ if(x+y>z && y+z>x && z+x>y){
     printf("Valid");
 }
 else{
-    printf("Invalid")
+    printf("Invalid");
 }
 return 0;
 }
