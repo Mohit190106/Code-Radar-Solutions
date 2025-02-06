@@ -4,6 +4,8 @@ int main(){
     int y;
     char z[10];
     scanf("%s %d %s",x,&y,z);
-    printf("%s %d %s",x,y,z);
+    printf("Name: %s",x);
+    printf("Age: %d",&y);
+    printf("Hobby: %s",z);
     return 0;
 }
