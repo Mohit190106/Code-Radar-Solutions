@@ -2,6 +2,6 @@
 int main(){
     int x;
     scanf("%d",&x);
-    printf("Hexadecimal: %X".x);
+    printf("Hexadecimal: %X",x);
     return 0;
 }
