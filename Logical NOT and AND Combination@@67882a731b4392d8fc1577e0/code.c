@@ -1,5 +1,5 @@
 #include <stdio.h>
-int mian(){
+int main(){
     int x;
     int y;
     scanf("%d %d",&x,&y);
