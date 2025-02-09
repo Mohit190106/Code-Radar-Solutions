@@ -8,6 +8,8 @@ int main(){
     else if(x<18){
         printf("Not ELigible");
     }
-
+    else{
+        printf("");
+    }
     return 0;
 }
