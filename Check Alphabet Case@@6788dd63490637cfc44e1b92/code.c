@@ -4,7 +4,8 @@ int main() {
     scanf("%c", &ch);
     if (isupper(ch)) {
         printf("Uppercase ");
-    } else if (islower(ch)) {
+    } 
+    else(islower(ch)) {
         printf("Lowercase");
     }
     return 0;
