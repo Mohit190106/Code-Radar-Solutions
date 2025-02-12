@@ -4,16 +4,16 @@ int main(){
     int y;
     char z;
     scanf("%d %d %c",&x,&y,&z);
-    if(z== +){
+    if(z== '+'){
         printf("%d",x+y);
     }
-    else if(z== -){
+    else if(z== '-'){
         printf("%d",x-y);
     }
-    else if(z== * ){
+    else if(z== '*' ){
         printf("%d",x*y);
     }
-    else if(z== /){
+    else if(z== '/'){
         printf("%d",x/y);
     }
     else{
