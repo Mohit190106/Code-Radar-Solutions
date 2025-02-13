@@ -19,10 +19,7 @@ void decimalToBinary(int n) {
 
 int main() {
     int decimalNumber;
-    printf("Enter a decimal number: ");
     scanf("%d", &decimalNumber);
-    
-    printf("Binary equivalent: ");
     decimalToBinary(decimalNumber);
     
     return 0;
