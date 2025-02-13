@@ -2,9 +2,8 @@
 
 int main() {
     int num, result, shiftAmount;
-    scanf("%d", &num,&shiftAmount);
+    scanf("%d %d", &num, &shiftAmount);
     result = num << shiftAmount;
-    printf("%d\n", num << shiftAmount, result);
-
+    printf("%d << %d = %d\n", num, shiftAmount, result);
     return 0;
 }
