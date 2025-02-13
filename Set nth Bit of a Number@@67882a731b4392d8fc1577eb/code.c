@@ -8,7 +8,8 @@ int setNthBit(int num, int n) {
 
 int main() {
     int num, n;
-    scanf("%d", &num,&n);
+    scanf("%d %d", &num, &n);
+
     int result = setNthBit(num, n);
     printf("%d\n", n, result);
     
