@@ -11,9 +11,7 @@ int main() {
     scanf("%d %d", &num, &n);
 
     int result = setNthBit(num, n);
-    
-    // Corrected printf to print both values
-    printf(" %d\n", nth, result);
+    printf("%d %d\n", n, result);
     
     return 0;
 }
