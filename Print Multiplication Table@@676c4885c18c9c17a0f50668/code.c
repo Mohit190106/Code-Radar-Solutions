@@ -1,14 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-    float i;
-    float n;
-    scanf("%f", &n);
-    
-    for(i = n; i <= 1000; i++) {
-        if(i % n == 0) {
-            printf("%f\n", i);
-        }
+int main()
+{
+    int i;
+    int n;
+    scanf("%d",%n);
+    for(i=1;i<=1000;i++){\
+    if(i%n==0){
+        printf("%d \n",i);
+    }
     }
 
     return 0;
