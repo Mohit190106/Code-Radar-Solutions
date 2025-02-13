@@ -13,7 +13,7 @@ int main() {
     int result = setNthBit(num, n);
     
     // Corrected printf to print both values
-    printf(" %d\n", n, result);
+    printf(" %d\n", nth, result);
     
     return 0;
 }
