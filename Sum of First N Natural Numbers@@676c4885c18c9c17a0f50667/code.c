@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main(){
     int x;
+    int i;
     scanf("%d",&x);
-    for(int i=1;i<=x;i++){
-        printf("%d+%d",x+i);
+    while(i<=x){
+        i++
+       printf("%d %d",i);
     }
     return 0;
 }
