@@ -14,10 +14,12 @@ int main(){
         printf("%d",x*y);
     }
      else if (z == '/') {
+        if (y != 0) {
             printf("%d", x / y);
-        
+        } else {
+            printf("error");
         }
-    
+    }
     else{
         printf("error");
     }
