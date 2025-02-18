@@ -14,13 +14,10 @@ int main(){
         printf("%d",x*y);
     }
      else if (z == '/') {
-        // Cast x to float or use float for the division result
-        if (y != 0) {
-            printf("%d", x / y);  // Using %.2f for a rounded float output
-        } else {
-            printf("error");
+            printf("%d", x / y);
+        
         }
-    }
+    
     else{
         printf("error");
     }
